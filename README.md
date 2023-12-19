@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/adityas-github/3-column-card-component.git)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://3-card-component-preview-aditya.netlify.app/)
 
 ## My process
 

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&family=Lexend+Deca:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 64%;
+  height: 61%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.card {
+  width: 33.33%;
+  height: 100%;
+  padding: 50px 54px;
+}
+
+.first {
+  background-color: rgb(224, 133, 36);
+}
+.second {
+  background-color: rgb(0, 105, 113);
+}
+.third {
+  background-color: rgb(0, 64, 62);
+}
+h1 {
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+  margin-top: 28px;
+  font-size: 2.8rem;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  font-family: "Lexend Deca";
+  font-size: 14px;
+  color: hsla(0, 0%, 100%, 0.577);
+  line-height: 1.8;
+  margin-top: 22px;
+  font-weight: 300;
+  letter-spacing: 1;
+  width: 95%;
+}
+button {
+  width: 70%;
+  margin-top: 48%;
+  height: 12%;
+  border: none;
+  border-radius: 35px;
+  font-weight: 500;
+  font-family: "Lexend Deca";
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.first button {
+  background-color: hsl(0, 0%, 95%);
+  color: rgb(224, 133, 36);
+}
+.second button {
+  background-color: hsl(0, 0%, 95%);
+  color: rgb(0, 105, 113);
+}
+.third button {
+  background-color: hsl(0, 0%, 95%);
+  color: rgb(0, 64, 62);
+}
+
+button:hover {
+  background-color: hsla(0, 0%, 95%, 0);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+  position: relative;
+  bottom: 19px;
+}
+.attribution a {
+  color: hsl(333, 77%, 52%);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+    overflow: scroll;
+    justify-content: flex-start;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+    padding: 50px 54px;
+  }
+  .third{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  button {
+    margin-top: 20%;
+  }
+}
